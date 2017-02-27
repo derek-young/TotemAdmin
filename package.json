@@ -1,0 +1,24 @@
+{
+  "name": "totemadmin",
+  "version": "1.0.0",
+  "description": "Venue administrator view for the Totem app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-young/TotemAdmin.git"
+  },
+  "contributors": [
+    { "name" : "John Currie", "email" : "johntcurrie@gmail.com" },
+    { "name" : "Pat Sheehan", "email" : "psheehan89@gmail.com" },
+    { "name" : "Smriti Goel", "email" : "smritigoel@gmail.com" },
+    { "name" : "Derek Young", "email" : "dthomasy@gmail.com" }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derek-young/TotemAdmin/issues"
+  },
+  "homepage": "https://github.com/derek-young/TotemAdmin#readme"
+}
