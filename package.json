@@ -1,7 +1,7 @@
 {
   "name": "totemadmin",
   "version": "1.0.0",
-  "description": "Venue administrator admin view for the Totem app.",
+  "description": "Venue administrator view for the Totem app.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
