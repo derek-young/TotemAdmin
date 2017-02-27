@@ -1,0 +1,19 @@
+{
+  "name": "totemadmin",
+  "version": "1.0.0",
+  "description": "Venue administrator admin view for the Totem app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-young/TotemAdmin.git"
+  },
+  "author": "Derek Young (dthomasy@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derek-young/TotemAdmin/issues"
+  },
+  "homepage": "https://github.com/derek-young/TotemAdmin#readme"
+}
