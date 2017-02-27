@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/derek-young/TotemAdmin.git"
   },
-  "author": "Derek Young (dthomasy@gmail.com)",
+  "contributors": [
+    { "name" : "John Currie", "email" : "johntcurrie@gmail.com" },
+    { "name" : "Pat Sheehan", "email" : "psheehan89@gmail.com" },
+    { "name" : "Smriti Goel", "email" : "smritigoel@gmail.com" },
+    { "name" : "Derek Young", "email" : "dthomasy@gmail.com" }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/derek-young/TotemAdmin/issues"
