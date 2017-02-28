@@ -11,10 +11,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static('./client/dist'));
 
-// app.get('*', function(req, res, next) {
-//   res.redirect('/');
-//   next();
-// });
+app.get('*', function(req, res, next) {
+  res.redirect('/');
+  next();
+});
 
 app.listen(port, function() {
   console.log('listening on port ' + port);
