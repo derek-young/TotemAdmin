@@ -4,11 +4,13 @@
   "description": "Venue administrator view for the Totem app.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
+    "build": "webpack --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derek-young/TotemAdmin.git"
+    "url": "git+https://github.com/BroccoliBacchanalia/TotemAdmin.git"
   },
   "contributors": [
     { "name" : "John Currie", "email" : "johntcurrie@gmail.com" },
@@ -18,7 +20,32 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/derek-young/TotemAdmin/issues"
+    "url": "https://github.com/BroccoliBacchanalia/TotemAdmin/issues"
   },
-  "homepage": "https://github.com/derek-young/TotemAdmin#readme"
+  "homepage": "https://github.com/BroccoliBacchanalia/TotemAdmin#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.1",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "firebase": "^3.6.10",
+    "nodemon": "^1.11.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^5.0.2",
+    "react-router-dom": "^4.0.0-beta.6",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.1",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  }
 }
