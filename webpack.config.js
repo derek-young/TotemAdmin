@@ -39,7 +39,14 @@ var config = {
     ]
   },
   // plugins: [
-  //   new webpack.optimize.UglifyJsPlugin()
+  //   new ClosureCompilerPlugin({
+  //     compiler: {
+  //       language_in: 'ECMASCRIPT6',
+  //       language_out: 'ECMASCRIPT5',
+  //       compilation_level: 'ADVANCED'
+  //     },
+  //     concurrency: 3,
+  //   });
   // ],
   output: {
     path: BUILD_DIR,
