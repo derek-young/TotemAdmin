@@ -1,10 +1,12 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import localStyles from './AdminStyles.css';
 
-const AdminPanel = () => {
+
+const AdminPanel = (props) => {
   return (
-    <div>
-      Admin Panel
+    <div className={localStyles.header}>
+      Buller
     </div>
   );
 }

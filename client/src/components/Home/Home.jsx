@@ -3,7 +3,7 @@ import localStyles from './HomeStyles.css';
 
 const Home = () => {
   return (
-    <div className={'clearfix'}>
+    <div className={localStyles.home + ' clearfix'}>
       <div className={localStyles.image}>
         <img src='img/totem.png' />
       </div>

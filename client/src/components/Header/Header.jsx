@@ -8,7 +8,7 @@ const Header = ({ loggedIn }) => {
       <div className = {localStyles.container}>
         <div className={localStyles.left}>
           <Link to="/">
-            <img src="img/totem_logo.png" />
+            <img src="/img/totem_logo.png" />
           </Link>
         </div>
         <RightView loggedIn={loggedIn} />
