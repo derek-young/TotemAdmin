@@ -1,5 +1,6 @@
 const defaults = {
   uid: null,
+  isAuthenticated: false,
 };
 
 export default function userReducer(state = defaults, action) {
