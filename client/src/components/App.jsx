@@ -16,7 +16,8 @@ const App = ({ user }) => {
       <div className={styles.container}>
         <Switch>
           <Route exact path="/" component={Home} />
-          <PrivateRoute path="/admin" component={Admin} />
+          <PrivateRoute exact path="/admin" component={Admin} />
+          <PrivateRoute path="/admin/profile" component={() => <div>Profile</div>} />
           <Route path="/register" component={() => <div>Registration View</div>} />
           <Route path="/signin" component={() => <div>Sign in View</div>} />
           <Route component={() => <div>404</div>} />
