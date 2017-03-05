@@ -48,4 +48,4 @@ export default connect((store) => {
   return {
     map: store.map
   };
-})(App);
+})(MapViewer);
